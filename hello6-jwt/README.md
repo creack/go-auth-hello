@@ -1,5 +1,10 @@
 # Hello6 - JWT
 
+In this step, we are replacing the random generated token
+with JWT.
+Instead of storing the tokens server side, we encode and signed data with a private key
+so the token we generates embeds data.
+
 ## Generate public / private key pair
 
 ```bash
